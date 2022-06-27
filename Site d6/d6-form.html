@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <title>D6 </title>
+    <link rel="stylesheet" href="reset.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet"
+        href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,400,0,0" />
+    <link rel="stylesheet" href="style-d6-form.css">
+
+</head>
+
+<body>
+    <header class="header">
+
+
+        <ul class="list">
+            <li>
+                <img src="d6-logo.png" class="logo">
+            </li>
+            <li class="item-menu">
+                avaliações
+            </li>
+            <li class="item-menu">
+                contato
+            </li>
+            <li class="item-menu">
+                programas
+            </li>
+            <li class="item-menu">
+                F
+            </li>
+            <li class="item-menu">
+                I
+            </li>
+        </ul>
+    </header>
+
+    <main>
+        <form class="formulario">
+
+            <input type="text" class="imput-padrao-primeiro" required placeholder="Nome Completo">
+
+            <input type="email" class="imput-padrao" required placeholder="Email">
+
+            <input type="tel" class="imput-padrao" required placeholder="(XX) XXXXX-XXXX">
+
+            <select [(ngModel)]="name" class="imput-padrao">
+                <option value="" disabled selected hidden>Unidade Federal</option>
+                <option value="AC">Acre</option>
+                <option value="AL">Alagoas</option>
+                <option value="AP">Amapá</option>
+                <option value="AM">Amazonas</option>
+                <option value="BA">Bahia</option>
+                <option value="CE">Ceará</option>
+                <option value="DF">Distrito Federal</option>
+                <option value="ES">Espírito Santo</option>
+                <option value="GO">Goiás</option>
+                <option value="MA">Maranhão</option>
+                <option value="MT">Mato Grosso</option>
+                <option value="MS">Mato Grosso do Sul</option>
+                <option value="MG">Minas Gerais</option>
+                <option value="PA">Pará</option>
+                <option value="PB">Paraíba</option>
+                <option value="PR">Paraná</option>
+                <option value="PE">Pernambuco</option>
+                <option value="PI">Piauí</option>
+                <option value="RJ">Rio de Janeiro</option>
+                <option value="RN">Rio Grande do Norte</option>
+                <option value="RS">Rio Grande do Sul</option>
+                <option value="RO">Rondônia</option>
+                <option value="RR">Roraima</option>
+                <option value="SC">Santa Catarina</option>
+                <option value="SP">São Paulo</option>
+                <option value="SE">Sergipe</option>
+                <option value="TO">Tocantins</option>
+            </select>
+
+            <input type="tel" class="imput-padrao" required placeholder="Cidade">
+
+            <button class="botao">Enviar</button>
+        </form>
+    </main>
+
+    <footer>
+        a
+    </footer>
+</body>
+
+</html>
